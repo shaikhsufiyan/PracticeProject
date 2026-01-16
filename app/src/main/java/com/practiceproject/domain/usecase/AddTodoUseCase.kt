@@ -16,4 +16,8 @@ class AddTodoUseCase(var dataProvider: DataProviderRepo) {
     suspend fun deleteTodo(){
 
     }
+
+    suspend fun deleteTodo2(){
+
+    }
 }
