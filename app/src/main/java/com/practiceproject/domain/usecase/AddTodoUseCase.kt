@@ -12,4 +12,14 @@ class AddTodoUseCase(var dataProvider: DataProviderRepo) {
             throw Exception("Field cannot be empty")
         }
     }
+
+    suspend fun deleteTodo(){
+
+    }
+
+    suspend fun deleteTodo2(){
+
+    }
+
+    suspend fun deleteTodo3(){}
 }
