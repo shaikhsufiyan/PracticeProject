@@ -13,4 +13,7 @@ class GetTodoUseCase(var dataProvider: DataProviderRepo) {
     fun test_1(){
 
     }
+
+    fun test_2(){}
+
 }
