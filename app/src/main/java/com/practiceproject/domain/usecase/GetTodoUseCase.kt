@@ -9,4 +9,8 @@ class GetTodoUseCase(var dataProvider: DataProviderRepo) {
     fun getTodo(): Flow<List<EntityTodo>> {
         return dataProvider.getTodo()
     }
+
+    fun test_1(){
+
+    }
 }
